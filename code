@@ -25,7 +25,7 @@ class Notepad:
 
         #set icon
         try:
-        		self.__root.wm_iconbitmap("Notepad.ico") #GOT TO FIX THIS ERROR (ICON)
+        		self.__root.wm_iconbitmap("Notepad.ico") 
         except:
         		pass
 
@@ -88,7 +88,7 @@ class Notepad:
         #exit()
 
     def __showAbout(self):
-        showinfo("Notepad-SS project","This project is made by Sushant Srivastava(4NI16IS109) and Tanmoy Debnath(4NI16IS111)")
+        showinfo("Notepad-SS project")
 
     def __openFile(self):
         
