@@ -61,7 +61,7 @@ class Notepad:
 
         self.__thisTextArea.grid(sticky=N+E+S+W)
 
-        self.__thisFileMenu.add_command(label="New",command=self.__newFile)
+        self.__thisFileMenu.add_command(label="Neww",command=self.__newFile)
         self.__thisFileMenu.add_command(label="Open",command=self.__openFile)
         self.__thisFileMenu.add_command(label="Save",command=self.__saveFile)
         self.__thisFileMenu.add_separator()
